@@ -6,7 +6,7 @@
   <link href="https://24s.top/atom.xml" rel="self"/>
   
   <link href="https://24s.top/"/>
-  <updated>2021-07-07T10:19:03.786Z</updated>
+  <updated>2021-07-07T10:23:57.033Z</updated>
   <id>https://24s.top/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>阿里云部署hexo完整教程</title>
-    <link href="https://24s.top/post/ccbf.html"/>
-    <id>https://24s.top/post/ccbf.html</id>
+    <title>测试</title>
+    <link href="https://24s.top/post/cs.html"/>
+    <id>https://24s.top/post/cs.html</id>
     <published>2021-07-06T05:59:10.000Z</published>
-    <updated>2021-07-07T10:19:03.786Z</updated>
+    <updated>2021-07-07T10:23:57.033Z</updated>
     
     
     <summary type="html">描述一句话摘要</summary>
@@ -36,27 +36,6 @@
     <category term="https" scheme="https://24s.top/tags/https/"/>
     
     <category term="SSL" scheme="https://24s.top/tags/SSL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://24s.top/post/4a17b156.html"/>
-    <id>https://24s.top/post/4a17b156.html</id>
-    <published>2021-07-05T04:49:23.938Z</published>
-    <updated>2021-07-06T02:42:00.437Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
     
   </entry>
   
