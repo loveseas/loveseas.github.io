@@ -32,16 +32,6 @@
 
   <!-- Baidu Analytics -->
 
-<script>
-    var _hmt = _hmt || [];
-    (function () {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?5b19efe0c3e01d7f511cadfe085b3e17";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();
-</script>
-
   
   <!--   <link rel="stylesheet" id="saukra_css-css" href="https://2heng.xin/wp-content/cache/autoptimize/css/autoptimize_ad42a61f4c7d4bdd9f91afcff6b5dda5.css
   " type="text/css" media="all"> -->
@@ -323,6 +313,13 @@
                       </li>
                     
                       <li>
+                        <a href="/bangumi/">
+                          <i class="fa fa-book" aria-hidden="true"></i>
+                          番剧
+                        </a>
+                      </li>
+                    
+                      <li>
                         <a href="/movies/">
                           <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
                           追剧
@@ -558,7 +555,7 @@
                       mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
                       seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
                       snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
-                      document.getElementById("time").innerHTML = "小破站在各种灾难中苟活了 "+ dnum +" 天 "+hnum + " 小时 " + mnum + " 分 " + snum + " 秒";      
+                      document.getElementById("time").innerHTML = "小站各种灾难中苟活了 "+ dnum +" 天 "+hnum + " 小时 " + mnum + " 分 " + snum + " 秒";      
                   } 
                   setInterval("createtime()",250);
                 </script>
@@ -570,11 +567,11 @@
         <div class="footer-device">
           <p style="font-family: 'Ubuntu', sans-serif;">
               <span style="color: #b9b9b9;">
-                Copyright &copy; 2021
+                By 
                 &nbsp;<a style="color: #ff9999;display:inline-block"> Sea </a>
                 &nbsp;<i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i> 
-                &nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank" style="color: #ff9999;display:inline-block">Hexo</a>
-                |&nbsp;Theme&nbsp;<a href="https://gitee.com/cungudafa/hexo-theme-sakuraplus" target="_blank" style="color: #ff9999;display:inline-block">SakuraPlus</a>
+                &nbsp;Copyright © 2021&nbsp;<a href="https://hexo.io/" target="_blank" style="color: #ff9999;display:inline-block"></a>
+                |&nbsp;by <a style="color: #ff9999;display:inline-block"> Sea </a> All Rights Reserved.&nbsp;<a href="https://gitee.com/cungudafa/hexo-theme-sakuraplus" target="_blank" style="color: #ff9999;display:inline-block"></a>
               </span>
           </p>
         </div>
@@ -796,6 +793,13 @@
                 <a href="/books/">
                   <i class="fa fa-book" aria-hidden="true"></i>
                   悦读
+                </a>
+              </li>
+            
+              <li>
+                <a href="/bangumi/">
+                  <i class="fa fa-book" aria-hidden="true"></i>
+                  番剧
                 </a>
               </li>
             
