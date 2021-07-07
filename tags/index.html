@@ -442,7 +442,7 @@
       标签云</h1>
       <span class="cat-des">
         <p>
-          Tags 0</p>
+          Tags 3</p>
       </span>
     </header>
     <div id="main-part">
@@ -451,7 +451,7 @@
           <div class="tag-cloud-title">
           </div>
           <div class="tag-cloud-tags">
-          
+          <a href="/tags/SSL/" style="font-size: 15px; color: #f66">SSL</a> <a href="/tags/https/" style="font-size: 15px; color: #f66">https</a> <a href="/tags/nginx/" style="font-size: 15px; color: #f66">nginx</a>
           </div>
         </div>
 
@@ -464,6 +464,33 @@
                 <i class="fa fa-tags"></i>&nbsp;&nbsp; 标签
             </div>
             <div class="tag-chips">
+                
+                
+                <a href="/tags/nginx/" title="nginx: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="nginx" style="background-color: #F9EBEA;">nginx
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/https/" title="https: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="https" style="background-color: #F5EEF8;">https
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/SSL/" title="SSL: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="SSL" style="background-color: #D5F5E3;">SSL
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
                 
             </div>
         </div>
@@ -542,6 +569,38 @@
 
 </style>
 
+        
+        <link rel="stylesheet" type="text/css" href="https://blinkfox.github.io/libs/jqcloud/jqcloud.css">
+<link rel="stylesheet" type="text/css" href="https://blinkfox.github.io/libs/aos/aos.css">
+<style type="text/css">
+    #tag-wordcloud {
+        width: 100%;
+        height: 300px;
+    }
+</style>
+
+<script type="text/javascript" src="https://blinkfox.github.io/libs/aos/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div class="tag-title center-align">
+            <i class="fa fa-tags"></i>&nbsp;&nbsp; 标签云
+        </div>
+        <div id="tag-wordcloud" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://blinkfox.github.io/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
+<script type="text/javascript">
+    
+
+    $('#tag-wordcloud').jQCloud( [{"text":"nginx","weight":1,"link":"/tags/nginx/"},{"text":"https","weight":1,"link":"/tags/https/"},{"text":"SSL","weight":1,"link":"/tags/SSL/"}], {
+        autoResize: true
+    });
+</script>
         
 
       
