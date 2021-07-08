@@ -1099,22 +1099,6 @@ var home = location.href,
         })
       }
     },
-    VA: function () {
-      if (!valine) {//注意
-        var valine = new Valine()
-        valine.init({
-          el: '#vcomments',
-          appId: mashiro_option.v_appId,
-          appKey: mashiro_option.v_appKey,
-          comment_count: true,
-          notify: false,
-          verify: true,
-          path: window.location.pathname,
-          placeholder: "祝开开心心！",
-          avatar: 'monsterid'
-        })
-      }
-    },
     MJ: function () {
       if (mashiro_option.mathjax == '1') {
         $.getScript('//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML', function () {
@@ -1549,7 +1533,6 @@ $(function () {
       Siren.AH()
       Siren.PE()
       Siren.CE()
-      Siren.VA()
       Siren.MJ()
       Siren.AB()
       Siren.TOC()
@@ -1615,9 +1598,6 @@ $(function () {
   $(document).on('click', '.specsZan', function () {
     $(this).postLike()
   })
-  // console.log('%c Mashiro %c', 'background:#24272A; color:#ffffff', '', 'https://2heng.xin/')
-  // console.log('%c hojun %c', 'background:#24272A; color:#ffffff', '', 'https://www.hojun.cn/')
-  // console.log('%c Github %c', 'background:#24272A; color:#ffffff', '', 'https://github.com/honjun/hexo-theme-sakura')
 })
 var isWebkit = navigator.userAgent.toLowerCase().indexOf('webkit') > -1,
   isOpera = navigator.userAgent.toLowerCase().indexOf('opera') > -1,
