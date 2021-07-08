@@ -520,15 +520,11 @@ img: https://cdn.jsdelivr.net/gh/loveseas/cdn@1.6/images/cover/1.jpg
     }
     </style>
     <script>
-        new Valine({
+        var valine = new Valine();
+        valine.init({
             el: '#vcomments',
-            enableQQ: true,
-            boolean: true,
             appId: 'QnuQiyXSqJ5QCLg5x8q5vgK3-gzGzoHsz',
             appKey: 'i8T59dEMUcBR5Jjuj0uJWfgI',
-            //notify: 'false' === 'true',
-            //verify: 'true' === 'true',
-            visitor: 'true' === 'true',
             avatar: 'retro',
             pageSize: '10',
             lang: 'zh-cn',
@@ -751,7 +747,7 @@ img: https://cdn.jsdelivr.net/gh/loveseas/cdn@1.6/images/cover/1.jpg
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/lib.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/InsightSearch.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/sakura-app.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/loveseas/cdn/js/sakura-app.js"></script>
 
 
 <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
