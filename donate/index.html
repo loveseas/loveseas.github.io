@@ -490,22 +490,6 @@
     <!-- <p><i class="iconfont icon-write"></i>如果遇到烦心事，要学会哄自己开心!</p> -->
     <p id="showStr"></p>
   </section>
-  <!-- 一言 -->
-  <script type="text/javascript" src="https://api.imjad.cn/hitokoto/?cat=&charset=utf-8&length=&encode=js&fun=sync&source="></script>
-  <div style="display:none" id="hitokoto"><script>hitokoto()</script>
-  </div>
-  <script>
-      var index = 0;
-      var str = document.getElementById("hitokoto").innerText;
-      str = str.substring(10, str.length)//裁剪hitokoto()字样
-      function type() {
-        if(index == str.length) {
-            index = 0;
-          }
-          document.getElementById("showStr").innerText = str.substring(0, index++);
-      }
-      setInterval(type, 200); //通过定时器来让文字逐步显示
-  </script>
 </div>
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
   <!-- <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script> -->
@@ -560,7 +544,7 @@
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
+            <input type="text" class="ins-search-input" placeholder="Type something..."/>
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -572,10 +556,10 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: '文章',
-            // PAGES: '页面',
-            CATEGORIES: '分类',
-            TAGS: '标签',
+            POSTS: 'Posts',
+            // PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
