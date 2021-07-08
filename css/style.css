@@ -6128,7 +6128,7 @@ i.iconfont.down {
         position: absolute;
         width: 30px;
         height: 3px;
-        background-color: #fff;
+        background-color: #0ff;
         top: 24px;
         left: 10px
     }
@@ -6136,7 +6136,7 @@ i.iconfont.down {
     .openNav .icon:before,
     .openNav .icon:after {
         transition-duration: .5s;
-        background-color: #fff;
+        background-color: #0ff;
         position: absolute;
         content: "";
         width: 30px;
